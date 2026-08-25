@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.status(200).json({
     status: "ok",
     project: "project-1-freestyles",
-    message: "Welcome to Project 1 API running successfully",
+    message: "Welcome to Project 1 API running in the jenkins container",
   });
 });
 
