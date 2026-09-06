@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     PROJECT_DIR = "project-4-multibranch-pipeline"
-    IMAGE_NAME = "venkatesan004/project-4-multibranch-pipeline"
+    IMAGE_NAME = "laxmandoc/project-3-pipeline-docker-b5"
     IMAGE_TAG = "${BUILD_NUMBER}"
     CONTAINER_NAME = "project-4-multibranch-pipeline"
     EMAIL_TO = "lakshmanan02731@gmail.com"
