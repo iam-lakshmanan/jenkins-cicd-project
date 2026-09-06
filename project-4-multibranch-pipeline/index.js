@@ -21,7 +21,7 @@ app.get("/health", (req, res) => {
 
 if (require.main === module) {
   app.listen(PORT, () => {
-    console.log(`Project 4 API running on port ${PORT}`);
+    console.log(`Project 4 API running succesfully on port ${PORT}`);
   });
 }
 
